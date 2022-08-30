@@ -7,3 +7,9 @@ export * from './task.api';
 import config from './ioc.config';
 
 Container.configure(...config);
+
+export * from './stock-items.api';
+export * from './stock-items-mock.service';
+
+
+

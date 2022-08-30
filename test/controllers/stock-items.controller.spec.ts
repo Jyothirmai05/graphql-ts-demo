@@ -4,7 +4,7 @@ import { Container } from 'typescript-ioc';
 
 import { buildApiServer } from '../helper';
 import Mock = jest.Mock;
-import { StockItemsMockService } from '../../src/services';
+import { StockItemsService } from '../../src/services';
 
 describe('stock-item.controller', () => {
 

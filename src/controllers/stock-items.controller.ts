@@ -3,7 +3,7 @@ import { GET, Path } from 'typescript-rest';
 import { HttpError } from 'typescript-rest/dist/server/model/errors';
 
 import { StockItemModel } from '../models';
-import { StockItemsMockService } from '../services';
+import { StockItemsService } from '../services';
 
 class BadGateway extends HttpError {
   constructor(message?: string) {

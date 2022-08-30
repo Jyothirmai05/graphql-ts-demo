@@ -13,7 +13,7 @@ describe('stock-item.controller', () => {
 
     beforeEach(async () => {
         service_listStockItems = jest.fn();
-        Container.bind(StockItemsMockService).factory(
+        Container.bind(StockItemsService).factory(
             () => ({
                 listStockItems: service_listStockItems
             }),

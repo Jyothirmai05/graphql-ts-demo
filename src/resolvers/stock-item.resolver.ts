@@ -9,7 +9,7 @@ import { StockItemsService } from '../services';
 @Resolver(of => StockItem)
 export class StockItemResolver {
     @Inject
-    service: StockItemsMockService;
+    service: StockItemsService;
 
     @Query(returns => [StockItem])
     async stockItems(): Promise<StockItemModel[]> {

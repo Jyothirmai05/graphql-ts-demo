@@ -55,7 +55,7 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-typescript": "^7.15.0",
-    "@pact-foundation/pact": "^9.16.1",
+    "@pact-foundation/pact": "^10.3.1",
     "@pact-foundation/pact-node": "^10.13.7",
     "@types/cls-hooked": "^4.3.3",
     "@types/cors": "^2.8.12",
